@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1400px;
+  margin: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  width: 1400px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background: #000;
+  margin: 0 0 20px 0;
+}
+
+.logo img {
+  width: 200px;
+  height: 80px;
+  margin: 10px 50px;
+}
+
+#main {
+  line-height: 100px;
+  margin: 0 10px;
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+#main li {
+  margin: 0 20px;
+}
+
+span {
+  color: #fff;
+  font-size: 18px;
+}
+
+#main li a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+#main li a:hover {
+  color: orange;
+}
+/* phần danh mục */
+
+.content {
+  width: 1400px;
+  height: 500px;
+}
+
+.danhmuc {
+  width: 250px;
+  height: 500px;
+  float: left;
+  font-size: 14px;
+  background: #000;
+  margin: 0 10px 0 0;
+}
+
+.danhmuc ul li {
+  list-style: none;
+  line-height: 18px;
+  margin: 25px 12px;
+}
+
+.danhmuc ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.danhmuc ul li a:hover {
+  color: darkorange;
+  font-weight: bold;
+}
+
+/* phần slide show */
+
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  float: left;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+section p {
+  width: 1400px;
+  height: 50px;
+  background: #000;
+  clear: both;
+  margin: 20px 0 20px 0;
+  color: #fff;
+  line-height: 50px;
+  font-size: 22px;
+  padding: 0 0 0 650px;
+}
+
+/* hết phần menu */
+
+/* -------------- */
+
+.box-tong {
+  width: 1220px;
+  height: auto;
+  margin: auto;
+  /* background: #ccc;
+    background: #000; */
+}
+.anh {
+  width: 200px;
+  height: 200px;
+}
+
+.ten {
+  margin: 10px 0 0 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.gia {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+button .ct {
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  background: red;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button a:hover {
+  color: #000;
+}
+
+footer {
+  width: 1400px;
+  height: 50px;
+  margin: 20px 0;
+  line-height: 50px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  clear: both;
+}
+

@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1520px;
+  margin: auto;
+}
+
+h3 {
+  color: white;
+  margin-left: 40px;
+}
+
+header {
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  background: black;
+  height: 70px;
+  align-items: center;
+  padding: 0 30px;
+  justify-content: space-between;
+}
+
+nav {
+  margin-left: 1200px;
+}
+
+#main {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+#main li a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+#main li a:hover {
+  color: orange;
+}
+
+i {
+  color: white;
+}
+
+/* phần content */
+
+.content {
+  width: 1620px;
+  height: auto;
+  float: left;
+}
+
+.left {
+  width: 250px;
+  height: auto;
+  margin: 20px 0 0 20px;
+  float: left;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.right {
+  width: 1220px;
+  margin: 20px 20px 0 30px;
+  float: left;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.box-tong {
+  width: 250px;
+  height: auto;
+  float: left;
+}
+
+.tieude {
+  width: 250px;
+  height: 40px;
+  background: #000;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 22px;
+}
+
+.muc1 {
+  width: 250px;
+  height: 40px;
+  padding: 0 20px;
+  line-height: 40px;
+  font-size: 20px;
+  border-bottom: 1px solid #000;
+  font-weight: bold;
+}
+
+.muc1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.muc1 a:hover {
+  color: orange;
+}
+
+.muc-con {
+  width: 250px;
+  height: 40px;
+  padding: 0 40px;
+  line-height: 40px;
+  font-size: 18px;
+  border-bottom: 1px solid #000;
+}
+
+.muc-con a {
+  text-decoration: none;
+  color: black;
+}
+
+.muc-con a:hover {
+  color: orange;
+}
+
+/*mục thông tin tên tài khoản*/
+
+.td {
+  width: 1220px;
+  height: 40px;
+  background: #000;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 22px;
+  border-bottom: 1px solid #fff;
+}
+
+table {
+  width: 100%;
+  font-size: 20px;
+  border-collapse: collapse;
+}
+
+th {
+  height: 30px;
+  background-color: black;
+  color: white;
+}
+
+td {
+  text-align: center;
+}
+
+.sua {
+  background: rgb(107, 187, 241);
+  font-weight: bold;
+}
+
+.sua a {
+  text-decoration: none;
+  color: #000;
+}
+.sua:hover {
+  background-color: orange;
+}
+.xoa {
+  background: rgb(236, 77, 77);
+  font-weight: bold;
+}
+
+.xoa a {
+  text-decoration: none;
+  color: #000;
+}
+.xoa:hover {
+  background-color: orange;
+}
+.sua:hover,
+.xoa:hover {
+  cursor: pointer;
+}
+.anh {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.name {
+  width: 200px;
+  height: 100px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.sl {
+  width: 200px;
+  height: 100px;
+}
+.gia {
+  width: 200px;
+  height: 100px;
+}
+#anh {
+  width: 500px;
+  height: 100px;
+}
+.tt {
+  width: 200px;
+  height: 100px;
+}
