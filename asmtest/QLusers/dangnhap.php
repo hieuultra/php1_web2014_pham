@@ -9,15 +9,17 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 </head>
 <style>
-    .loi{
+    .loi {
         font-size: 20px;
         font-weight: bold;
     }
-    p{
-    font-size: 20px;
-    font-weight: bold;
+
+    p {
+        font-size: 20px;
+        font-weight: bold;
     }
 </style>
+
 <body>
     <?php
     require_once '../connect.php';
@@ -55,6 +57,7 @@
     ?>
     <div class="wrapper">
         <div class="box">
+        <button class="btn btn-success bg-primary"> <a href="../khachHang/Trang-chu.php">BACK TO WEBSITE</a></button>
             <h1 class="tieude">ĐĂNG NHẬP</h1>
             <form action="" method="POST">
                 <p>
